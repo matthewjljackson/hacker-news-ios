@@ -13,6 +13,7 @@
 		C951274B2A798EB9009F3ACF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C951274A2A798EB9009F3ACF /* Preview Assets.xcassets */; };
 		C95127532A7992BC009F3ACF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95127522A7992BC009F3ACF /* NetworkManager.swift */; };
 		C95127552A7993AD009F3ACF /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95127542A7993AD009F3ACF /* PostData.swift */; };
+		C95127582A79A306009F3ACF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95127572A79A306009F3ACF /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C951274A2A798EB9009F3ACF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C95127522A7992BC009F3ACF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C95127542A7993AD009F3ACF /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		C95127572A79A306009F3ACF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,9 @@
 		C95127422A798EB7009F3ACF /* hackerNews */ = {
 			isa = PBXGroup;
 			children = (
+				C95127562A79A2E2009F3ACF /* Views */,
 				C95127512A7992A8009F3ACF /* Models */,
 				C95127432A798EB7009F3ACF /* hackerNewsApp.swift */,
-				C95127452A798EB7009F3ACF /* ContentView.swift */,
 				C95127472A798EB9009F3ACF /* Assets.xcassets */,
 				C95127492A798EB9009F3ACF /* Preview Content */,
 			);
@@ -79,6 +81,15 @@
 				C95127542A7993AD009F3ACF /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C95127562A79A2E2009F3ACF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C95127452A798EB7009F3ACF /* ContentView.swift */,
+				C95127572A79A306009F3ACF /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 				C95127462A798EB7009F3ACF /* ContentView.swift in Sources */,
 				C95127552A7993AD009F3ACF /* PostData.swift in Sources */,
 				C95127532A7992BC009F3ACF /* NetworkManager.swift in Sources */,
+				C95127582A79A306009F3ACF /* DetailView.swift in Sources */,
 				C95127442A798EB7009F3ACF /* hackerNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
